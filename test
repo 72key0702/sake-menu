@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sake子屋 メニュー</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #e6eff4;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 160px;
+      height: auto;
+    }
+    h1 {
+      margin: 0.5rem 0;
+      color: #274d66;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #274d66;
+      font-weight: bold;
+    }
+    .menu-section {
+      padding: 1rem;
+    }
+    .item {
+      background: white;
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 12px;
+      max-width: 600px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .item h2 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    .item .price {
+      color: #888;
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #e6eff4;
+    }
+    .sns a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      color: #274d66;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://raw.githubusercontent.com/openai/sake-menu-assets/main/logo_sakebar.png" alt="Sake子屋ロゴ">
+    <h1>Sake子屋 一献一会の酒Bar</h1>
+  </header>
+
+  <nav>
+    <a href="#sake">日本酒</a>
+    <a href="#snack">おつまみ</a>
+  </nav>
+
+  <div class="menu-section" id="sake">
+    <div class="item">
+      <img src="https://raw.githubusercontent.com/openai/sake-menu-assets/main/yamadanishiki_sake.jpg" alt="播州山田錦">
+      <h2>播州山田錦 純米吟醸</h2>
+      <p class="price">一合 ¥1,200 / 半合 ¥700</p>
+      <p>新潟産の山田錦を丁寧に磨き上げた、透明感ある味わい。</p>
+    </div>
+  </div>
+
+  <div class="menu-section" id="snack">
+    <div class="item">
+      <img src="https://raw.githubusercontent.com/openai/sake-menu-assets/main/snack_pairing.jpg" alt="おつまみ">
+      <h2>ペアリングおつまみセット</h2>
+      <p class="price">（日本酒付き）</p>
+      <p>出汁のやさしさが染みる逸品。心もほっとする味わい。</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="sns">
+      <a href="https://www.instagram.com/natsuki_sommelier/" target="_blank">Instagram</a>
+      <a href="https://x.com/ut044070" target="_blank">X</a>
+    </div>
+    <p>&copy; Sake子屋</p>
+  </footer>
+</body>
+</html>
